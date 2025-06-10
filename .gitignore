@@ -1,0 +1,21 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Downloaded package files (at root)
+# If .deb files are needed for tests, they should be in a specific test assets directory
+# and that directory could be un-ignored, e.g. !package_converter/tests/assets/*.deb
+/*.deb
